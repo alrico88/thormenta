@@ -1,0 +1,44 @@
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$card-bg: #1e293b;
+$list-group-bg: #1e293b;
+$input-bg: #1e293b;
+$primary: #0369a1;
+
+body,
+html, #__nuxt {
+  font-size: 16px;
+  height: 100%;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.overflow-y {
+  overflow-y: auto;
+}
+
+.text-small {
+  font-size: 0.8rem;
+}
+
+.btn-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+body {
+  background-color: #0f172a;
+}
+
+.text-title {
+  color: transparent;
+  background-image: linear-gradient(to bottom right, #0ea5e9, #22d3ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.icon {
+  margin-top: -3px;
+}
